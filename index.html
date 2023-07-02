@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js" defer></script>
+ 
+  <title>Conversor de Unidade</title>
+</head>
+<body>
+    <div id="container">
+      <h1>Conversor de Unidade</h1>
+      <div class="input-group">
+        <label for="number">Digite um valor</label>
+        <input type="number" name="number" id="number" placeholder="0">
+      </div>
+      <div class="input-group">
+        <label for="from">De:</label>
+        <select name="from" id="from">
+          <option value="m">Metro(s)</option>
+          <option value="km">Quilômetro(s)</option>
+          <option value="cm">Centímetro(s)</option>
+          <option value="mm">Milímetro(s)</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="to">Para:</label>
+        <select name="to" id="to">
+          <option value="m">Metro(s)</option>
+          <option value="km">Quilômetro(s)</option>
+          <option value="cm">Centímetro(s)</option>
+          <option value="mm">Milímetro(s)</option>
+        </select>
+      </div>
+      <button id="convert">Converter</button>
+      <div class="input-res">
+        <label for="result">Resultado</label>
+        <input type="number" name="result" id="result" readonly>
+      </div>
+      <div id="message">
+      </div>
+    </div>
+  <footer>
+    <p> Adaptado para estudos por <a href="https://github.com/EwelynSantos" target="_blank">EwelynSantos</a>  &copy;horadecodar</p>
+  </footer>
+</body>
+</html>
